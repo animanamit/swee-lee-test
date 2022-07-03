@@ -15,7 +15,7 @@ const SplashImage = () => {
       />
       <div className="md:absolute md:text-left text-center flex flex-col justify-center md:right-4 md:w-72 py-8 md:top-[25%] px-8 md:py-0">
         {isMobile ? (
-          <h3 className="uppercase font-bold text-white text-xl text-center">
+          <h3 className="uppercase font-bold text-white text-xl py-4 text-center">
             featured artists
           </h3>
         ) : (
@@ -30,7 +30,7 @@ const SplashImage = () => {
           Adam Blackstone and Brian Frasier-Moore discuss Super Bowl 2020 and
           more.
         </h4>
-        <button className="bg-orange-500 mt-2 text-white px-2 py-2 uppercase tracking-loose font-semibold text-sm max-w-fit mx-auto md:mx-0 ">
+        <button className="bg-orange-500 md:mt-2 mt-6 text-white md:px-4 px-9 md:py-2 py-3 rounded-sm uppercase tracking-loose font-semibold text-sm max-w-fit mx-auto md:mx-0 ">
           Read More
         </button>
       </div>

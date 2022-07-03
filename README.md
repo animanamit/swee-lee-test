@@ -4,7 +4,13 @@ It was styled using [Tailwind CSS](tailwindcss.com).
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository and install all packages/modules:
+
+```bash
+yarn
+```
+
+Then, run the development server:
 
 ```bash
 yarn dev
