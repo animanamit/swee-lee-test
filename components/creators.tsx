@@ -78,7 +78,7 @@ const Creators = () => {
               className="w-full h-full"
               alt={`photo of ${creatorsData[index].name}`}
             />
-            <h3 className="text-xl font-medium my-4">
+            <h3 className="text-lg font-bold my-4">
               {creatorsData[index].name}
             </h3>
           </div>
@@ -91,7 +91,7 @@ const Creators = () => {
             className="w-full h-full"
             alt={`photo of ${creatorsData[creatorsData.length - 2].name}`}
           />
-          <h3 className="text-xl font-medium mt-4">
+          <h3 className="text-lg font-bold mt-4">
             {creatorsData[creatorsData.length - 2].name}
           </h3>
         </div>
@@ -101,7 +101,7 @@ const Creators = () => {
             className="w-full h-full"
             alt={`photo of ${creatorsData[creatorsData.length - 1].name}`}
           />
-          <h3 className="text-xl font-medium mt-4">
+          <h3 className="text-lg font-bold mt-4">
             {creatorsData[creatorsData.length - 1].name}
           </h3>
         </div>

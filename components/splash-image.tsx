@@ -7,8 +7,12 @@ const SplashImage = () => {
   return (
     <div className="md:h-[30rem] min-h-fit sm:flex sm:flex-col w-full overflow-y-hidden md:relative bg-black">
       <img
-        src="https://blog.monocreators.com/uploads/2020/03/Image-1-26-20-at-12.52-AM.jpg"
-        height={isMobile ? "60rem" : "100%"}
+        src={
+          isMobile
+            ? "https://cdn.shopify.com/s/files/1/2098/9809/files/Small_750x750_2x_Zane_Carney_750x750_crop_center.jpg?v=1620631149"
+            : "https://blog.monocreators.com/uploads/2020/03/Image-1-26-20-at-12.52-AM.jpg"
+        }
+        height={isMobile ? "30rem" : "100%"}
         width={"100%"}
         alt="photo of Adam Blackstone and Brian Frasier-Moore"
         className=" opacity-50"
